@@ -229,7 +229,7 @@ export class PantallaAnalisisComponent implements OnInit, OnDestroy {
             console.log('Rostro reconocido, ID:', messageObject.match_details.identification);
           } else {
             Swal.fire({
-              title: '¡Error!<br>Persona Autorizada',
+              title: '¡Error!<br>Persona No Autorizada',
               text: 'No se encontró un rostro coincidente.',
               icon: 'error',
               confirmButtonText: 'Aceptar',
